@@ -20,8 +20,11 @@ ul {
 }
 
 li {
-    padding-bottom: 5px;
     font-size: 20px;
+}
+
+li:not(:nth-child(1)) {
+    padding-top: 2px;
 }
 
 .container {
